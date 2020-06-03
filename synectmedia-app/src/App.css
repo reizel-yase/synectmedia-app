@@ -12,37 +12,3 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.playPauseBtn {
-  padding: 10px;
-  width: 20rem;
-  border-radius: .3rem;
-  margin: 2rem auto;
-  cursor: pointer;
-  font-size: 1.5rem;
-}
-
-.playPauseBtn:hover,
-.playPauseBtn:focus,
-.playPauseBtn:active {
-  outline: 0;
-}
-
-.playPauseBtn.played {
-  background: rgba(215, 215, 215, 1);
-  box-shadow: 0 0 10px rgba(0, 0, 0, .6) inset;
-}
-
-.counter {
-  margin: 1rem 0;
-  text-align: center;
-}
-
-.imgContainer {
-  width: 640px;
-  height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
