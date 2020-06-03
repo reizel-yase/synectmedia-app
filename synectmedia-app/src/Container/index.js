@@ -10,7 +10,7 @@ export default class Container extends React.Component {
     super(props)
 
     this.state = {
-      url: this.props.url || undefined,
+      url: props.url || undefined,
       isBtnPaused: true,
       counter: 0,
       duplicateCounter: 0,
